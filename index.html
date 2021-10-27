@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iLinkTest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="/style/index.css" />
+    <link rel="stylesheet" href="/style/section-jane-doe.css" />
+    <link rel="stylesheet" href="/style/section-tell-us.css" />
+    <link rel="stylesheet" href="/style/form.css" />
+    <link rel="stylesheet" href="/style/section-slider.css" />
+    <link rel="stylesheet" href="/style/selected-file.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="#" class="header-logo">
+          <img src="/assets/img/logo.svg" alt="logo" />
+        </a>
+        <nav>
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="#section-jane-doe" class="nav-link">Jane Doe</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Tell us about yourself</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Slider</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section name="section-jane-doe" class="section-jane-doe">
+      <div class="wrapper">
+        <div class="section-jane-doe-content">
+          <img src="assets/img/girl.png" class="section-jane-doe-img" alt="" />
+          <div class="">
+            <div class="section-jane-doe__title">Jane Doe</div>
+            <ul class="nav">
+              <li class="nav-item nav-item-jane-doe">
+                <span class="nav-link nav-link-bold">Date of birth</span>
+                <span class="nav-link nav-link-black">21.04.2001</span>
+              </li>
+              <li class="nav-item nav-item-jane-doe">
+                <span class="nav-link nav-link-bold">Gender</span>
+                <span class="nav-link nav-link-black">Female</span>
+              </li>
+              <li class="nav-item nav-item-jane-doe">
+                <span class="nav-link nav-link-bold">Country</span>
+                <span class="nav-link nav-link-black">Corea</span>
+              </li>
+            </ul>
+            <div class="section-jane-doe__title section-jane-doe__title-small">
+              About me
+            </div>
+            <p class="section-jane-doe__article">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <p class="section-jane-doe__article">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-tell-us">
+      <div class="wrapper">
+        <div class="section-tell-us__title">Tell us about yourself</div>
+        <form action="" class="form form-tell-us">
+          <div class="form-row">
+            <div class="form-block">
+              <label for="name" class="form-label">Your name</label>
+              <input class="form-input" id="name" placeholder="Имя" />
+            </div>
+            <div class="form-block">
+              <label for="name" class="form-label">Your gender</label>
+
+              <select class="form-select" id="gender">
+                <option value=""> Male</option>
+                <option value=""> Female</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-block">
+              <label for="country" class="form-label">Your country</label>
+              <input class="form-input" id="country" placeholder="country" />
+            </div>
+            <div class="form-block">
+              <label for="city" class="form-label">Your city</label>
+              <input class="form-input" id="city" placeholder="city" />
+            </div>
+            <div class="form-block">
+              <label for="birth" class="form-label">Your date of birth</label>
+              <input class="form-input" name="birth" type="date" />
+            </div>
+          </div>
+          <div class="form-row form-row-selected-file">
+            <div class="form-block form-block-file">
+              <label for="file" class="form-lable form-label-file">
+                <span>Proof your identity with some documents</span>
+                <div class="form-btn form-btn-file">Add document</div>
+              </label>
+              <input
+                class="form-input form-input-file"
+                id="file"
+                type="file"
+                placeholder="Proof your identity with some documents"
+              />
+            </div>
+            <div class="selected-file">
+              <div class="selected-file__wrapper">
+                <div><img src="assets/img/fileImage.png" /></div>
+                <div class="selected-file__info">
+                  <span class="selected-file__file-name">File_name_001</span>
+                  <span class="selected-file__file-dim">JPG 2,5 mb</span>
+                </div>
+                <div class="selected-file__trash">
+                  <svg
+                    width="12"
+                    height="13"
+                    viewBox="0 0 12 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3.41797 3L3.78059 1H7.89034L8.25297 3"
+                      stroke="#8E43ED"
+                      stroke-width="1.33333"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M1 3H10.67"
+                      stroke="#8E43ED"
+                      stroke-width="1.33333"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M10.0657 3L9.15918 12.3333H2.51105L1.60449 3H10.0657Z"
+                      stroke="#8E43ED"
+                      stroke-width="1.33333"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <button type="submit" class="form-btn form-btn-send-info">
+          Send info
+        </button>
+      </div>
+    </section>
+    <section class="section-slider">
+      <div class="section-slider__wrapper">
+        <div>
+          <img src="assets/img/sliderImage.png" />
+        </div>
+        <div class="section-slider__control">
+          <div>
+            <svg
+              width="19"
+              height="34"
+              viewBox="0 0 19 34"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17 2L2 17L17 32"
+                stroke="white"
+                stroke-width="4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="">
+            <div>Slide this photo</div>
+            <div>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur
+            </div>
+          </div>
+          <div>
+            <svg
+              width="19"
+              height="34"
+              viewBox="0 0 19 34"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2 32L17 17L2 2"
+                stroke="white"
+                stroke-width="4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

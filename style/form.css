@@ -1,0 +1,130 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 40px;
+}
+
+.form-tell-us {
+    max-width: 976px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    grid-gap: 32px;
+}
+
+.form-row-selected-file {
+    grid-gap: 8px;
+    margin-top: 16px;
+}
+
+.form-row-center {
+    display: flex;
+    justify-content: center;
+}
+
+.form-select {
+    flex: 0 0 48%;
+    border: 0.8px solid var(--purple);
+    border-radius: 12px;
+    padding: 16px 37px 16px 16px;
+    box-sizing: border-box;
+    font-size: 16px;
+    appearance: none;
+    background-image: url(../assets/img/vector.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--grey);
+    font-weight: 400;
+}
+
+.form-block {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 8px;
+    width: 304px;
+}
+
+.form-block-file {
+    width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 104px;
+    background-color: var(--white);
+    border: 1px dashed var(--light-purple);
+    border-radius: 12px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-label-file {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 16px;
+}
+
+.form-input {
+    border: 0.8px solid var(--purple);
+    border-radius: 12px;
+    padding: 16px 37px 16px 16px;
+    box-sizing: border-box;
+}
+
+.form-input-file {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.form-btn {
+    background-color: var(--light-grey);
+    color: #ffffff;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    padding: auto;
+    border: none;
+    border-radius: 12px;
+    margin-top: 112px;
+    width: 212px;
+    height: 56px;
+}
+
+.form-btn-file {
+    background-color: var(--white);
+    color: var(--purple);
+    border: 1px solid var(--purple);
+    width: 211px;
+    height: 56px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-btn-send-info {
+    background-color: var(--purple);
+    color: var(--white);
+    border: 1px solid var(--purple);
+    width: 212px;
+    height: 56px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+}

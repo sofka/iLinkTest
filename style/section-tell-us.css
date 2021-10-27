@@ -1,0 +1,10 @@
+.section-tell-us {
+    margin-top: 56px;
+    min-height: 750px;
+}
+
+.section-tell-us__title {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 40px;
+}

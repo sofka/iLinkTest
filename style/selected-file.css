@@ -1,0 +1,38 @@
+.selected-file {
+    width: 256px;
+    height: 56px;
+    background-color: var(--white);
+    font-weight: 400;
+    border-radius: 12px;
+    border: 1px solid var(--light-purple);
+}
+
+.selected-file__wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 9px 23px 9px 12px;
+    align-items: center;
+}
+.selected-file__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-gap: 2px;
+}
+
+.selected-file__file-name {
+    font-size: 14px;
+    color: var(--grey);
+    margin-left: 9px;
+    
+}
+
+.selected-file__file-dim {
+    font-size: 12px;
+    color: var(--light-black);
+    margin-left: 9px;
+}
+
+.selected-file__trash{
+    margin-left: 60px;
+}

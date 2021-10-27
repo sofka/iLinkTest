@@ -1,0 +1,20 @@
+.section-slider{
+    min-height: 647px;
+    background-color: var(--white);
+}
+
+.section-slider__wrapper{
+    padding: 56px 64px;
+    position: relative;
+}
+
+.section-slider__control{
+    max-width: 1312px;
+    position: absolute;
+    top: 50%;
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
