@@ -10,9 +10,9 @@ body {
     --light-purple: #D9BBFF;
     --black: #000000;
     --white: #FFF;
-    --grey:  #303030;
+    --grey: #303030;
     --light-grey: #DED9E4;
-    --light-black:#AFAFAF;
+    --light-black: #AFAFAF;
 }
 
 .header {
@@ -65,4 +65,34 @@ body {
     padding-right: 64px;
     max-width: 1440px;
     position: relative;
+}
+
+.wrapper-top {
+    padding-top: 56px;
+}
+
+
+@media (max-width: 400px) {
+    header {
+        width: 375px;
+        text-align: center;
+    }
+    header img{
+        height: 30px;
+        width: 70px;
+        margin: 17px 0;
+    }
+    .header {
+        justify-content: center;
+        padding: 0;
+    }
+    nav {
+        display: none;
+    }
+    .wrapper {
+        margin: 0 auto;
+        padding: 24px 13px 58px 14px;
+        max-width: 375px;
+        position: relative;
+    }
 }

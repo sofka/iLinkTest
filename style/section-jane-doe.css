@@ -33,3 +33,25 @@
     margin-top: 24px;
     line-height: 32px;
 }
+
+@media (max-width: 400px) {
+    .section-jane-doe {
+        border-radius: 0;
+        padding: 24px 13px 58px 14px;
+    }
+    .section-jane-doe-img {
+        width: 348px;
+        height: 396px;
+    }
+    .section-jane-doe-content {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 32px;
+    }
+    .nav-item-jane-doe {
+        flex-direction: column;
+    }
+    .section-jane-doe__title {
+        margin-top: 24px;
+    }
+}
